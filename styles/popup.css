@@ -1,0 +1,127 @@
+body {
+    border: 1px solid #ccc;
+    font-family: system-ui, sans-serif;
+    margin: 0;
+    width: 300px;
+}
+
+#current-tabs,
+#saved-groups {
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+.empty-message {
+    color: #777;
+    margin: 4px;
+}
+
+.expand-button {
+    cursor: pointer;
+    width: 12px;
+}
+
+footer {
+    padding: 4px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0 0 4px 0;
+}
+
+.group-container:nth-child(even) {
+    background: #eee;
+}
+
+.group-container:nth-child(odd) {
+    background: #fff;
+}
+
+.group-name {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.group-row {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    gap: 6px;
+    padding: 4px;
+}
+
+.group-row.selected {
+    background: #ccc;
+}
+
+.group-tabs {
+    padding-left: 22px;
+}
+
+header {
+    font-weight: bold;
+    margin: 4px;
+}
+
+header p {
+    margin: 0;
+    text-align: center;
+}
+
+main {
+    padding: 4px;
+}
+
+.saved-tab {
+    cursor: pointer;
+    overflow: hidden;
+    padding: 4px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.saved-tab:hover {
+    text-decoration: underline;
+}
+
+section {
+    border: 1px solid #ccc;
+    padding: 4px;
+}
+
+section + section {
+    margin-top: 4px;
+}
+
+section p {
+    margin: 0 0 4px 0;
+}
+
+.tab-count {
+    margin-left: auto;
+}
+
+.tab-row {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    padding: 4px;
+}
+
+.tab-row:nth-child(even) {
+    background: #eee;
+}
+
+.tab-row:nth-child(odd) {
+    background: #fff;
+}
+
+.tab-row span {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

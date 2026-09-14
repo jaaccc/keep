@@ -1,10 +1,12 @@
 *
 !.gitignore
-!.prettierrc
 !images/
 !images/**
 !manifest.json
 !popup/
 !popup/**
+!.prettierrc
 !scripts/
 !scripts/**
+!styles/
+!styles/**
