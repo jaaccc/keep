@@ -1,0 +1,10 @@
+*
+!.gitignore
+!.prettierrc
+!images/
+!images/**
+!manifest.json
+!popup/
+!popup/**
+!scripts/
+!scripts/**
