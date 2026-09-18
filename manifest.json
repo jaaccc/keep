@@ -2,6 +2,11 @@
     "action": {
         "default_popup": "popup/popup.html"
     },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "keep@jaaccc.me"
+        }
+    },
     "description": "save and group tabs.",
     "icons": {
         "16": "images/icon-16.png",
