@@ -1,12 +1,16 @@
 *
 !.gitignore
+!.prettierrc
+!LICENSE.md
 !images/
 !images/**
 !manifest.json
 !popup/
 !popup/**
-!.prettierrc
+!privacy.md
 !scripts/
 !scripts/**
 !styles/
 !styles/**
+
+**/.DS_Store
