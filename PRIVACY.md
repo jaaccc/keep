@@ -2,13 +2,13 @@
 
 **last updated: september 17, 2026**
 
-keep is a minimalist, lightweight browser extension for saving and restoring groups of tabs.
+keep is a minimalist and lightweight browser extension for saving and restoring groups of tabs.
 
 ### data collection
 
 keep access the titles and urls of browser tabs that you choose to save. this information is stored locally using your browser's extension storage.
 
-keep does not collect, transmit, sell, or share your saved tab information with the developer or any third party
+keep does not collect, transmit, sell, or share your saved tab information with the developer or any third party.
 
 ### data storage
 
@@ -24,7 +24,7 @@ the tabs permission is used to access the user's currently open tabs so keep can
 
 ### third party services
 
-keep does not use analytics, advertising, tracking, external scripts, or third-party services other collect user data
+keep does not use analytics, advertising, tracking, external scripts, or third-party services other collect user data.
 
 ### changes to this policy
 
@@ -32,5 +32,4 @@ this privacy policy may be updated if keep's functionality or data practices cha
 
 ### contact
 
-for questions about keep or this privacy policy, contact **dev@jaaccc.me**
-
+for questions about keep or this privacy policy, contact **dev@jaaccc.me**.
