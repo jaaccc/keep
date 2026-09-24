@@ -1,4 +1,4 @@
-# keep privacy policy
+# privacy policy
 
 **last updated: september 17, 2026**
 

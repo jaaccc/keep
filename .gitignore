@@ -1,13 +1,15 @@
 *
+!CHANGELOG.md
 !.gitignore
-!.prettierrc
 !LICENSE.md
 !images/
 !images/**
 !manifest.json
 !popup/
 !popup/**
-!privacy.md
+!.prettierrc
+!PRIVACY.md
+!README.md
 !scripts/
 !scripts/**
 !styles/
