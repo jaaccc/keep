@@ -207,12 +207,55 @@ async function loadSavedGroups() {
             groupRow.classList.add("selected");
         });
 
-        groupRow.addEventListener("dblclick", () => {
+        groupRow.addEventListener("dblclick", (event) => {
+            if (event.target === groupName) {
+                return;
+            }
+
             for (const tab of group.tabs) {
                 chrome.tabs.create({
                     url: tab.url,
                 });
             }
+        });
+
+        groupName.addEventListener("dblclick", (event) => {
+            event.stopPropagation();
+
+            const input = document.createElement("input");
+
+            input.classList.add("group-name-input");
+            input.value = group.name;
+
+            groupName.replaceWith(input);
+
+            input.focus();
+            input.select();
+
+            input.addEventListener("keydown", async (event) => {
+                if (event.key === "Enter") {
+                    const newName = input.value.trim();
+
+                    if (!newName) {
+                        loadSavedGroups();
+                        return;
+                    }
+
+                    const savedGroups =
+                        await chrome.storage.local.get("groups");
+                    const groups = savedGroups.groups || [];
+
+                    groups[i].name = newName;
+
+                    await chrome.storage.local.set({ groups });
+
+                    loadSavedGroups();
+                }
+
+                if (event.key === "Escape") {
+                    loadSavedGroups();
+                }
+            });
         });
 
         groupContainer.appendChild(groupRow);

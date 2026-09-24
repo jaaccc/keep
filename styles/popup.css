@@ -63,6 +63,17 @@ footer p {
     white-space: nowrap;
 }
 
+.group-name-input {
+    background: transparent;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    font: inherit;
+    max-width: fit-content;
+    outline: none;
+    padding: 0;
+    width: 100%;
+}
+
 .group-row {
     align-items: center;
     cursor: pointer;
