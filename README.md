@@ -15,6 +15,8 @@ features
 
 no accounts, no unnecessary features, just a simple way to save groups of tabs.
 
+technologies: css, html, javascript, markdown
+
 [chrome](https://chromewebstore.google.com/detail/keep/dgpdfpefhdgdoeedmjaggaamneaflapa),
 [firefox](https://addons.mozilla.org/en-US/firefox/addon/keep-jaaccc/),
 [github](https://github.com/jaaccc/keep)
