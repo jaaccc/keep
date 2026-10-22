@@ -2,8 +2,7 @@
 
 keep is a minimalist, lightweight browser extension for saving and restoring groups of tabs.
 
-save the tabs you're currently working with and come back to them later. keep stores your saved tab
-groups so you can close your tabs without losing your place.
+save the tabs you're currently working with and come back to them later. keep stores your saved tab groups so you can close your tabs without losing your place.
 
 features
 
